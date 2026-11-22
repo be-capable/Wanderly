@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>哼唱科技 DeepSong — 北京哼唱科技有限公司</title>
+<meta name="description" content="北京哼唱科技有限公司（Beijing Hengchang Technology Co., Ltd.）官方网站。我们正在打造漫途 Wanderly——集行程规划、同行协作与旅行手账于一体的应用。Official website of Beijing Hengchang Technology Co., Ltd.">
+<meta property="og:title" content="哼唱科技 DeepSong — Beijing Hengchang Technology Co., Ltd.">
+<meta property="og:description" content="让每一段旅途，都值得被记录。Every journey, beautifully kept.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://deepsong.top/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2337d6ff'/%3E%3Cstop offset='.5' stop-color='%237c5cff'/%3E%3Cstop offset='1' stop-color='%23ff4d9d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230b1030'/%3E%3Cg fill='url(%23g)'%3E%3Crect x='10' y='26' width='6' height='12' rx='3'/%3E%3Crect x='20' y='18' width='6' height='28' rx='3'/%3E%3Crect x='30' y='10' width='6' height='44' rx='3'/%3E%3Crect x='40' y='20' width='6' height='24' rx='3'/%3E%3Crect x='50' y='27' width='6' height='10' rx='3'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="sky" aria-hidden="true">
+  <div class="aurora a1"></div>
+  <div class="aurora a2"></div>
+  <div class="aurora a3"></div>
+</div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="DeepSong 哼唱科技">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#37d6ff"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff4d9d"/>
+        </linearGradient></defs>
+        <rect width="64" height="64" rx="16" fill="#10163a" stroke="rgba(148,163,255,.3)"/>
+        <g fill="url(#bm)">
+          <rect x="10" y="26" width="6" height="12" rx="3"/><rect x="20" y="18" width="6" height="28" rx="3"/>
+          <rect x="30" y="10" width="6" height="44" rx="3"/><rect x="40" y="20" width="6" height="24" rx="3"/>
+          <rect x="50" y="27" width="6" height="10" rx="3"/>
+        </g>
+      </svg>
+      <span class="brand-name">哼唱科技<span class="brand-sub">DEEPSONG TECH</span></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#products" data-spy data-i18n="nav.products">产品</a>
+      <a href="#about" data-spy data-i18n="nav.about">关于我们</a>
+      <a href="#contact" data-spy data-i18n="nav.contact">联系我们</a>
+      <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+    </nav>
+    <button class="lang-btn" type="button">EN</button>
+    <a class="nav-cta" href="#contact" data-i18n="nav.cta">商务合作</a>
+    <button class="burger" type="button" aria-expanded="false" aria-label="菜单">☰</button>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a href="#products" data-i18n="nav.products">产品</a>
+  <a href="#about" data-i18n="nav.about">关于我们</a>
+  <a href="#contact" data-i18n="nav.contact">联系我们</a>
+  <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+  <button class="lang-btn" type="button">EN</button>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="wave" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="hero-badge reveal in"><span class="dot"></span><span data-i18n="hero.badge">北京哼唱科技有限公司 · Beijing Hengchang Technology Co., Ltd.</span></div>
+      <h1 class="reveal in d1" data-i18n="hero.title">把<span class="grad">每一段旅途</span>，<br>都装进口袋</h1>
+      <p class="hero-sub reveal in d2" data-i18n="hero.sub">我们是一家位于北京的独立软件公司，正在打造漫途 Wanderly——一款集行程规划、同行协作与旅行手账于一体的应用，让记录旅途像哼一首歌那样自然。</p>
+      <div class="hero-actions reveal in d3">
+        <a class="btn btn-primary" href="#products" data-i18n="hero.btn1">了解漫途 Wanderly →</a>
+        <a class="btn btn-ghost" href="#contact" data-i18n="hero.btn2">联系我们</a>
+      </div>
+      <div class="hero-stats reveal in d3">
+        <div class="stat"><b>2026</b><span data-i18n="hero.s1">成立于北京</span></div>
+        <div class="stat"><b data-i18n="hero.s2v">iOS</b><span data-i18n="hero.s2">原生移动体验</span></div>
+        <div class="stat"><b data-i18n="hero.s3v">实时</b><span data-i18n="hero.s3">多人协作同步</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="prod.kicker">我们的产品</span>
+        <h2 class="title" data-i18n="prod.title">漫途 Wanderly，<span class="grad">为旅途而生</span></h2>
+        <p class="section-sub" data-i18n="prod.sub">从出发前的第一个念头，到归来后的最后一页手账——一款应用，陪你走完一整段旅程。</p>
+      </div>
+
+      <!-- Wanderly 漫途 -->
+      <article class="product-card tn reveal">
+        <div class="p-body">
+          <div class="p-head">
+            <img class="p-icon" src="assets/wanderly-icon.png" alt="Wanderly 漫途 app icon" width="76" height="76">
+            <div>
+              <div class="p-name"><span data-i18n="tn.name">漫途 Wanderly</span><span class="p-status dev" data-i18n="tn.status">iOS 版开发中</span></div>
+              <div class="p-tag" data-i18n="tn.tag">行程规划 · 预订分摊 · 旅行手账 · 实时协作</div>
+            </div>
+          </div>
+          <p class="p-desc" data-i18n="tn.desc">一站式旅行规划应用：在 3D 地图上拖拽编排每日行程，管理机票酒店与多币种分摊，与同行伙伴实时协作，并把照片与心情写进杂志式旅行手账。</p>
+          <ul class="p-feats">
+            <li><span class="fi">✦</span><span data-i18n="tn.f1">拖拽式行程规划，路线优化与 Google Maps 一键导出</span></li>
+            <li><span class="fi">✦</span><span data-i18n="tn.f2">机票 · 酒店 · 餐厅预订管理，确认邮件与 PDF 一键导入</span></li>
+            <li><span class="fi">✦</span><span data-i18n="tn.f3">多币种记账与 AA 分摊，一键结算谁欠谁</span></li>
+            <li><span class="fi">✦</span><span data-i18n="tn.f4">行前清单模板、物品分工与行李重量追踪</span></li>
+            <li><span class="fi">✦</span><span data-i18n="tn.f5">杂志式旅行手账：照片、心情与优缺点回顾</span></li>
+            <li><span class="fi">✦</span><span data-i18n="tn.f6">实时协作：群聊、投票、共享笔记与位置打卡</span></li>
+          </ul>
+          <div class="p-platforms">
+            <span class="chip" data-i18n="tn.c1">📱 iPhone</span>
+            <span class="chip" data-i18n="tn.c3">🗣 20 种语言</span>
+            <span class="chip" data-i18n="tn.c4">🤖 内置 AI 助手</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Feature details -->
+      <div class="detail-head reveal">
+        <h3 class="detail-title" data-i18n="fg.title">细节，<span class="grad">为旅途而设计</span></h3>
+      </div>
+      <div class="feat-grid">
+        <div class="feat reveal"><span class="fi2">🗺</span><b data-i18n="fg.t1">互动地图</b><p data-i18n="fg.d1">3D 建筑与地形、地点照片标记与聚类，支持 Google Places 与 OpenStreetMap 搜索。</p></div>
+        <div class="feat reveal d1"><span class="fi2">👥</span><b data-i18n="fg.t2">实时协作</b><p data-i18n="fg.d2">WebSocket 即时同步与角色权限，另有群聊、投票与共享笔记。</p></div>
+        <div class="feat reveal d2"><span class="fi2">💰</span><b data-i18n="fg.t3">预算与分摊</b><p data-i18n="fg.d3">多币种记账、按人按天分摊、分类统计与一键结算。</p></div>
+        <div class="feat reveal"><span class="fi2">📖</span><b data-i18n="fg.t4">旅行手账</b><p data-i18n="fg.d4">杂志式排版，可同步 Immich / Synology 照片，记录心情与优缺点。</p></div>
+        <div class="feat reveal d1"><span class="fi2">🧳</span><b data-i18n="fg.t5">行前清单</b><p data-i18n="fg.d5">打包清单模板、物品分配给同行者，并追踪行李重量。</p></div>
+        <div class="feat reveal d2"><span class="fi2">🌍</span><b data-i18n="fg.t6">足迹地图</b><p data-i18n="fg.d6">点亮去过的国家，统计地点 / 城市 / 天数，管理旅行愿望清单。</p></div>
+      </div>
+      <div class="spec-strip">
+        <div class="spec reveal"><b>20</b><span data-i18n="sp.l1">种界面语言</span></div>
+        <div class="spec reveal d1"><b>150+</b><span data-i18n="sp.l2">个 AI 助手工具</span></div>
+        <div class="spec reveal d2"><b data-i18n="sp.v3">16 天</b><span data-i18n="sp.l3">逐日天气预报</span></div>
+        <div class="spec reveal d3"><b>100+</b><span data-i18n="sp.l4">个国家节假日数据</span></div>
+      </div>
+
+      <!-- Roadmap -->
+      <div class="roadmap reveal">
+        <span class="kicker" data-i18n="rm.kicker">产品路线图</span>
+        <div class="rm-track">
+          <div class="rm-step now">
+            <span class="rm-dot"></span>
+            <span class="rm-when" data-i18n="rm.w1">进行中</span>
+            <b data-i18n="rm.t1">iOS 版开发</b>
+            <p data-i18n="rm.d1">核心体验持续打磨，首个版本即将完成。</p>
+          </div>
+          <div class="rm-step next">
+            <span class="rm-dot"></span>
+            <span class="rm-when" data-i18n="rm.w2">近期</span>
+            <b data-i18n="rm.t2">登陆 App Store</b>
+            <p data-i18n="rm.d2">提交审核并正式发布，与更多旅行者见面。</p>
+          </div>
+          <div class="rm-step plan">
+            <span class="rm-dot"></span>
+            <span class="rm-when" data-i18n="rm.w3">规划中</span>
+            <b data-i18n="rm.t3">Android 与更深的 AI</b>
+            <p data-i18n="rm.d3">Android 原生体验、更深的 AI 助手与照片源集成，持续演进。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="ab.kicker">关于我们</span>
+        <h2 class="title" data-i18n="ab.title">一支<span class="grad">小而专注</span>的团队</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p data-i18n="ab.p1"><b>北京哼唱科技有限公司</b>（Beijing Hengchang Technology Co., Ltd.）成立于 2026 年 9 月，注册于北京市昌平区，是一家专注于消费级移动应用的软件公司。我们相信：最好的工具，应当像哼一首歌那样自然。</p>
+          <p data-i18n="ab.p2">公司业务涵盖软件开发、技术服务与技术咨询、旅游开发项目策划咨询。目前我们正全力打造首款产品 <b>漫途（Wanderly）</b>，iOS 版本将于近期提交 App Store。</p>
+          <div class="pillars">
+            <div class="pillar"><span class="pi">📱</span><div><b data-i18n="ab.b1t">移动应用研发</b><span data-i18n="ab.b1d">以 iOS 为核心的原生移动体验。</span></div></div>
+            <div class="pillar"><span class="pi">☁️</span><div><b data-i18n="ab.b2t">云端协作技术</b><span data-i18n="ab.b2d">实时同步与多人协作，让同行者始终在同一页行程上。</span></div></div>
+            <div class="pillar"><span class="pi">🧳</span><div><b data-i18n="ab.b3t">旅行数字服务</b><span data-i18n="ab.b3d">行程规划、协作与记录的一体化旅行工具。</span></div></div>
+          </div>
+        </div>
+        <dl class="facts reveal d1">
+          <div class="facts-head"><span class="seal"></span><span data-i18n="ab.fh">工商登记信息</span></div>
+          <div class="fact"><dt data-i18n="ab.fl1">公司名称</dt><dd data-i18n="ab.fv1">北京哼唱科技有限公司</dd></div>
+          <div class="fact"><dt data-i18n="ab.fl2">统一社会信用代码</dt><dd class="mono">91110114MAKMD04C8C</dd></div>
+          <div class="fact"><dt data-i18n="ab.fl3">成立时间</dt><dd data-i18n="ab.fv3">2026 年 9 月</dd></div>
+          <div class="fact"><dt data-i18n="ab.fl4">法定代表人</dt><dd data-i18n="ab.fv4">刘娟</dd></div>
+          <div class="fact"><dt data-i18n="ab.fl5">注册地</dt><dd data-i18n="ab.fv5">北京市昌平区</dd></div>
+          <div class="fact"><dt data-i18n="ab.fl6">业务方向</dt><dd data-i18n="ab.fv6">软件开发 · 技术服务 · 旅游项目策划</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker" data-i18n="ct.kicker">联系我们</span>
+        <h2 class="title" data-i18n="ct.title">随时<span class="grad">与我们聊聊</span></h2>
+        <p class="section-sub" data-i18n="ct.sub">无论是产品支持、商务合作还是媒体咨询，都欢迎通过以下方式联系我们，我们会在工作日内尽快回复。</p>
+      </div>
+      <div class="contact-grid">
+        <div class="c-card reveal">
+          <div class="ci">✉️</div>
+          <h3 data-i18n="ct.c1t">电子邮件</h3>
+          <p data-i18n="ct.c1d">产品支持与合作咨询的首选方式。</p>
+          <a class="c-value" href="mailto:contact@deepsong.top">contact@deepsong.top</a>
+        </div>
+        <div class="c-card reveal d1">
+          <div class="ci">📞</div>
+          <h3 data-i18n="ct.c2t">电话</h3>
+          <p data-i18n="ct.c2d">工作日 9:30 – 18:30（北京时间）</p>
+          <a class="c-value" href="tel:+8617710931151">+86 177 1093 1151</a>
+        </div>
+        <div class="c-card reveal d2">
+          <div class="ci">📍</div>
+          <h3 data-i18n="ct.c3t">公司地址</h3>
+          <address>
+            <span data-i18n="ct.addr">北京市昌平区东小口镇天通中苑二区 21 号楼 1 层 103-3395（集群注册）</span>
+            <span class="en-addr">103-3395, 1st Floor, Building 21, Tiantong Zhongyuan Second District, Dongxiaokou Town, Changping District, Beijing, China</span>
+          </address>
+        </div>
+      </div>
+      <p class="contact-note reveal" data-i18n="ct.note"><b>应用支持：</b>如果你在使用漫途（Wanderly）时遇到问题，请在邮件中注明应用名称、设备型号与系统版本，发送至 contact@deepsong.top，我们会在 1–2 个工作日内回复。</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#top">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <defs><linearGradient id="bf" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#37d6ff"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff4d9d"/>
+            </linearGradient></defs>
+            <rect width="64" height="64" rx="16" fill="#10163a" stroke="rgba(148,163,255,.3)"/>
+            <g fill="url(#bf)">
+              <rect x="10" y="26" width="6" height="12" rx="3"/><rect x="20" y="18" width="6" height="28" rx="3"/>
+              <rect x="30" y="10" width="6" height="44" rx="3"/><rect x="40" y="20" width="6" height="24" rx="3"/>
+              <rect x="50" y="27" width="6" height="10" rx="3"/>
+            </g>
+          </svg>
+          <span class="brand-name">哼唱科技<span class="brand-sub">DEEPSONG TECH</span></span>
+        </a>
+        <p data-i18n="ft.desc">北京哼唱科技有限公司 — 用软件记录每一段旅途。Beijing Hengchang Technology Co., Ltd. — every journey, beautifully kept.</p>
+      </div>
+      <nav class="foot-links" aria-label="页脚导航">
+        <a href="#products" data-i18n="nav.products">产品</a>
+        <a href="#about" data-i18n="nav.about">关于我们</a>
+        <a href="#contact" data-i18n="nav.contact">联系我们</a>
+        <a href="privacy.html" data-i18n="nav.privacy">隐私政策</a>
+      </nav>
+    </div>
+    <div class="foot-legal">
+      <span data-i18n="ft.copy">© <span data-year>2026</span> 北京哼唱科技有限公司 · Beijing Hengchang Technology Co., Ltd. 保留所有权利。</span>
+      <span data-i18n="ft.code">统一社会信用代码：91110114MAKMD04C8C</span>
+      <span data-i18n="ft.icp"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026062130号-1</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.PAGE_I18N = {
+  "zh-CN": {
+    __title: "哼唱科技 DeepSong — 北京哼唱科技有限公司",
+    "nav.products": "产品", "nav.about": "关于我们", "nav.contact": "联系我们", "nav.privacy": "隐私政策", "nav.cta": "商务合作",
+    "hero.badge": "北京哼唱科技有限公司 · Beijing Hengchang Technology Co., Ltd.",
+    "hero.title": '把<span class="grad">每一段旅途</span>，<br>都装进口袋',
+    "hero.sub": "我们是一家位于北京的独立软件公司，正在打造漫途 Wanderly——一款集行程规划、同行协作与旅行手账于一体的应用，让记录旅途像哼一首歌那样自然。",
+    "hero.btn1": "了解漫途 Wanderly →", "hero.btn2": "联系我们",
+    "hero.s1": "成立于北京", "hero.s2v": "iOS", "hero.s2": "原生移动体验", "hero.s3v": "实时", "hero.s3": "多人协作同步",
+    "prod.kicker": "我们的产品",
+    "prod.title": '漫途 Wanderly，<span class="grad">为旅途而生</span>',
+    "prod.sub": "从出发前的第一个念头，到归来后的最后一页手账——一款应用，陪你走完一整段旅程。",
+    "tn.name": "漫途 Wanderly", "tn.status": "iOS 版开发中", "tn.tag": "行程规划 · 预订分摊 · 旅行手账 · 实时协作",
+    "tn.desc": "一站式旅行规划应用：在 3D 地图上拖拽编排每日行程，管理机票酒店与多币种分摊，与同行伙伴实时协作，并把照片与心情写进杂志式旅行手账。",
+    "tn.f1": "拖拽式行程规划，路线优化与 Google Maps 一键导出", "tn.f2": "机票 · 酒店 · 餐厅预订管理，确认邮件与 PDF 一键导入",
+    "tn.f3": "多币种记账与 AA 分摊，一键结算谁欠谁", "tn.f4": "行前清单模板、物品分工与行李重量追踪",
+    "tn.f5": "杂志式旅行手账：照片、心情与优缺点回顾", "tn.f6": "实时协作：群聊、投票、共享笔记与位置打卡",
+    "tn.c1": "📱 iPhone", "tn.c3": "🗣 20 种语言", "tn.c4": "🤖 内置 AI 助手",
+    "sp.l1": "种界面语言", "sp.l2": "个 AI 助手工具", "sp.v3": "16 天", "sp.l3": "逐日天气预报", "sp.l4": "个国家节假日数据",
+    "fg.title": '细节，<span class="grad">为旅途而设计</span>',
+    "fg.t1": "互动地图", "fg.d1": "3D 建筑与地形、地点照片标记与聚类，支持 Google Places 与 OpenStreetMap 搜索。",
+    "fg.t2": "实时协作", "fg.d2": "WebSocket 即时同步与角色权限，另有群聊、投票与共享笔记。",
+    "fg.t3": "预算与分摊", "fg.d3": "多币种记账、按人按天分摊、分类统计与一键结算。",
+    "fg.t4": "旅行手账", "fg.d4": "杂志式排版，可同步 Immich / Synology 照片，记录心情与优缺点。",
+    "fg.t5": "行前清单", "fg.d5": "打包清单模板、物品分配给同行者，并追踪行李重量。",
+    "fg.t6": "足迹地图", "fg.d6": "点亮去过的国家，统计地点 / 城市 / 天数，管理旅行愿望清单。",
+    "rm.kicker": "产品路线图",
+    "rm.w1": "进行中", "rm.t1": "iOS 版开发", "rm.d1": "核心体验持续打磨，首个版本即将完成。",
+    "rm.w2": "近期", "rm.t2": "登陆 App Store", "rm.d2": "提交审核并正式发布，与更多旅行者见面。",
+    "rm.w3": "规划中", "rm.t3": "Android 与更深的 AI", "rm.d3": "Android 原生体验、更深的 AI 助手与照片源集成，持续演进。",
+    "ab.kicker": "关于我们", "ab.title": '一支<span class="grad">小而专注</span>的团队',
+    "ab.p1": "<b>北京哼唱科技有限公司</b>（Beijing Hengchang Technology Co., Ltd.）成立于 2026 年 9 月，注册于北京市昌平区，是一家专注于消费级移动应用的软件公司。我们相信：最好的工具，应当像哼一首歌那样自然。",
+    "ab.p2": "公司业务涵盖软件开发、技术服务与技术咨询、旅游开发项目策划咨询。目前我们正全力打造首款产品 <b>漫途（Wanderly）</b>，iOS 版本将于近期提交 App Store。",
+    "ab.b1t": "移动应用研发", "ab.b1d": "以 iOS 为核心的原生移动体验。",
+    "ab.b2t": "云端协作技术", "ab.b2d": "实时同步与多人协作，让同行者始终在同一页行程上。",
+    "ab.b3t": "旅行数字服务", "ab.b3d": "行程规划、协作与记录的一体化旅行工具。",
+    "ab.fh": "工商登记信息",
+    "ab.fl1": "公司名称", "ab.fv1": "北京哼唱科技有限公司",
+    "ab.fl2": "统一社会信用代码",
+    "ab.fl3": "成立时间", "ab.fv3": "2026 年 9 月",
+    "ab.fl4": "法定代表人", "ab.fv4": "刘娟",
+    "ab.fl5": "注册地", "ab.fv5": "北京市昌平区",
+    "ab.fl6": "业务方向", "ab.fv6": "软件开发 · 技术服务 · 旅游项目策划",
+    "ct.kicker": "联系我们", "ct.title": '随时<span class="grad">与我们聊聊</span>',
+    "ct.sub": "无论是产品支持、商务合作还是媒体咨询，都欢迎通过以下方式联系我们，我们会在工作日内尽快回复。",
+    "ct.c1t": "电子邮件", "ct.c1d": "产品支持与合作咨询的首选方式。",
+    "ct.c2t": "电话", "ct.c2d": "工作日 9:30 – 18:30（北京时间）",
+    "ct.c3t": "公司地址",
+    "ct.addr": "北京市昌平区东小口镇天通中苑二区 21 号楼 1 层 103-3395（集群注册）",
+    "ct.note": "<b>应用支持：</b>如果你在使用漫途（Wanderly）时遇到问题，请在邮件中注明应用名称、设备型号与系统版本，发送至 contact@deepsong.top，我们会在 1–2 个工作日内回复。",
+    "ft.desc": "北京哼唱科技有限公司 — 用软件记录每一段旅途。Beijing Hengchang Technology Co., Ltd. — every journey, beautifully kept.",
+    "ft.copy": '© <span data-year>2026</span> 北京哼唱科技有限公司 · Beijing Hengchang Technology Co., Ltd. 保留所有权利。',
+    "ft.code": "统一社会信用代码：91110114MAKMD04C8C",
+    "ft.icp": '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026062130号-1</a>'
+  },
+  en: {
+    __title: "DeepSong — Beijing Hengchang Technology Co., Ltd.",
+    "nav.products": "Products", "nav.about": "About", "nav.contact": "Contact", "nav.privacy": "Privacy", "nav.cta": "Business Inquiries",
+    "hero.badge": "Beijing Hengchang Technology Co., Ltd. · 北京哼唱科技有限公司",
+    "hero.title": 'Every journey,<br><span class="grad">beautifully kept</span>',
+    "hero.sub": "We are an independent software company based in Beijing, building Wanderly — an app that brings trip planning, real-time collaboration and travel journaling together, as natural as humming a song.",
+    "hero.btn1": "Meet Wanderly →", "hero.btn2": "Contact us",
+    "hero.s1": "Founded in Beijing", "hero.s2v": "iOS", "hero.s2": "Native mobile experience", "hero.s3v": "Real-time", "hero.s3": "Collaborative sync",
+    "prod.kicker": "Our Product",
+    "prod.title": 'Wanderly, <span class="grad">born for the journey</span>',
+    "prod.sub": "From the first idea before departure to the last journal page after you return — one app for the whole journey.",
+    "tn.name": "Wanderly", "tn.status": "iOS in development", "tn.tag": "Trip planning · Bookings & splitting · Journal · Collaboration",
+    "tn.desc": "An all-in-one travel planner: drag and drop daily itineraries on a 3D map, manage flights, hotels and multi-currency splitting, collaborate with companions in real time, and turn photos and moods into a magazine-style journal.",
+    "tn.f1": "Drag-and-drop day planner with route optimisation and Google Maps export", "tn.f2": "Flight, hotel & restaurant bookings — import confirmation emails and PDFs",
+    "tn.f3": "Multi-currency expenses and fair splitting with one-tap settle-up", "tn.f4": "Packing list templates, item assignment and bag weight tracking",
+    "tn.f5": "Magazine-style journal: photos, moods and pros & cons", "tn.f6": "Real-time collaboration: chat, polls, shared notes and check-ins",
+    "tn.c1": "📱 iPhone", "tn.c3": "🗣 20 languages", "tn.c4": "🤖 Built-in AI assistant",
+    "sp.l1": "interface languages", "sp.l2": "AI assistant tools", "sp.v3": "16 days", "sp.l3": "of daily weather forecast", "sp.l4": "countries of holiday data",
+    "fg.title": 'Details <span class="grad">designed for the road</span>',
+    "fg.t1": "Interactive maps", "fg.d1": "3D buildings and terrain, photo markers and clustering, with Google Places and OpenStreetMap search.",
+    "fg.t2": "Real-time collaboration", "fg.d2": "WebSocket sync with role-based permissions, plus group chat, polls and shared notes.",
+    "fg.t3": "Budgets & splitting", "fg.d3": "Multi-currency tracking, per-person per-day splits, category stats and one-tap settle-up.",
+    "fg.t4": "Travel journal", "fg.d4": "Magazine-style layouts, Immich / Synology photo sync, moods and pros & cons.",
+    "fg.t5": "Packing lists", "fg.d5": "List templates, assign items to companions and keep an eye on bag weight.",
+    "fg.t6": "Footprint atlas", "fg.d6": "Light up countries you've visited, stats for places / cities / days, and a travel bucket list.",
+    "rm.kicker": "Product Roadmap",
+    "rm.w1": "In progress", "rm.t1": "iOS development", "rm.d1": "Polishing the core experience; the first release is nearly ready.",
+    "rm.w2": "Up next", "rm.t2": "App Store launch", "rm.d2": "Submit for review and release to travelers everywhere.",
+    "rm.w3": "Planned", "rm.t3": "Android & deeper AI", "rm.d3": "A native Android experience, deeper AI assistance and more photo integrations.",
+    "ab.kicker": "About Us", "ab.title": 'A <span class="grad">small, focused</span> team',
+    "ab.p1": "<b>Beijing Hengchang Technology Co., Ltd.</b> (北京哼唱科技有限公司) was founded in September 2026 and is registered in Changping District, Beijing. We are a software company focused on consumer mobile apps. We believe the best tools should feel as natural as humming a song.",
+    "ab.p2": "Our business covers software development, technology services and consulting, and travel project planning. We are fully focused on our first product, <b>Wanderly</b> (漫途), with the iOS version to be submitted to the App Store soon.",
+    "ab.b1t": "Mobile app development", "ab.b1d": "iOS-first native mobile experiences.",
+    "ab.b2t": "Cloud collaboration", "ab.b2d": "Real-time sync keeps every companion on the same page of the itinerary.",
+    "ab.b3t": "Digital travel services", "ab.b3d": "Planning, collaboration and journaling in one travel tool.",
+    "ab.fh": "Company Registration",
+    "ab.fl1": "Legal name", "ab.fv1": "Beijing Hengchang Technology Co., Ltd.",
+    "ab.fl2": "Unified Social Credit Code",
+    "ab.fl3": "Founded", "ab.fv3": "September 2026",
+    "ab.fl4": "Legal representative", "ab.fv4": "Liu Juan",
+    "ab.fl5": "Registered in", "ab.fv5": "Changping District, Beijing",
+    "ab.fl6": "Business scope", "ab.fv6": "Software · Tech services · Travel planning",
+    "ct.kicker": "Contact", "ct.title": 'Let’s <span class="grad">talk</span>',
+    "ct.sub": "For product support, business partnerships or press inquiries, reach us through any channel below — we reply on business days.",
+    "ct.c1t": "Email", "ct.c1d": "The best way to reach us for support and partnerships.",
+    "ct.c2t": "Phone", "ct.c2d": "Weekdays 9:30 – 18:30 (China Standard Time)",
+    "ct.c3t": "Office address",
+    "ct.addr": "103-3395, 1st Floor, Building 21, Tiantong Zhongyuan Second District, Dongxiaokou Town, Changping District, Beijing, China (Cluster Registration)",
+    "ct.note": "<b>App support:</b> if you run into an issue with Wanderly, email contact@deepsong.top with the app name, device model and OS version — we respond within 1–2 business days.",
+    "ft.desc": "Beijing Hengchang Technology Co., Ltd. — every journey, beautifully kept. 北京哼唱科技有限公司 — 用软件记录每一段旅途。",
+    "ft.copy": '© <span data-year>2026</span> Beijing Hengchang Technology Co., Ltd. · 北京哼唱科技有限公司. All rights reserved.',
+    "ft.code": "Unified Social Credit Code: 91110114MAKMD04C8C",
+    "ft.icp": '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026062130号-1</a>'
+  }
+};
+</script>
+<script src="assets/app.js"></script>
+</body>
+</html>
